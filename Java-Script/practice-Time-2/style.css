@@ -1,0 +1,47 @@
+body {
+    background-color: #1F2937;
+}
+
+h1 {
+    margin-top: 46.5px;
+    margin-left: 200px;
+    margin-right: 625px;
+
+    color:white;
+    font-size: 60px;
+}
+
+#t2 {
+    margin-top: -40px;
+    color: #10B981;
+}
+p {
+    margin-left: 200px;
+    font-size: 30px;    
+    color: #D5D4D8;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 10px 10px 10px 10px;  
+
+    font-size: 24px;
+    color: white;
+    background-color: #10B981;
+    border-radius: 15px;
+}
+
+.pass {
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 200px;
+    background-color:#273549;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px 7.5px 5px;
+    color: #55F991;
+
+}
