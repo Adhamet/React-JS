@@ -5,9 +5,17 @@ const ulEle = document.getElementById("ul-ele");
 
 clickedBtn.addEventListener("click", function() {
     myInputs.push(inputEle.value);
+    renderInput();
     console.log(myInputs);
 });
 
-for(let i = 0; i < myInputs.length; i++) {
-    ulEle.textContent += myInputs[i] + " ";
+function renderInput() {
+    let listItems = "";
+    for(let i = 0; i < myInputs.length; i++) {
+        listItems += `
+            <li>
+                <a target='_blank' href='${myInputs[i]}'> ${myInputs[i]}</a>
+            </li>`;
+    }
+    ulEle.innerHTML = listItems;
 }
