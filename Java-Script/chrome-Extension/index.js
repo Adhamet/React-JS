@@ -5,6 +5,7 @@ const ulEle = document.getElementById("ul-ele");
 
 clickedBtn.addEventListener("click", function() {
     myInputs.push(inputEle.value);
+    inputEle.value = "";
     renderInput();
     console.log(myInputs);
 });
