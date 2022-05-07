@@ -2,12 +2,17 @@ let myInputs = [];
 const inputEle = document.getElementById("input-element");
 const clickedBtn = document.getElementById("input-btn");
 const ulEle = document.getElementById("ul-ele");
+let leadsFromLocalStorage
 
 clickedBtn.addEventListener("click", function() {
     myInputs.push(inputEle.value);
     inputEle.value = "";
+
+    localStorage.setItem("myLeads", JSON.stringify(myInputs));
     renderInput();
-    console.log(myInputs);
+
+    leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+    console.log(leadsFromLocalStorage);
 });
 
 function renderInput() {
