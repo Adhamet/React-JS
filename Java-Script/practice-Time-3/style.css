@@ -1,0 +1,181 @@
+body {
+    text-align: center;
+    color:white;
+    height: 500px;
+}
+
+
+/*-----------------------------------------*/
+header {
+    position: absolute;
+    width: 1310px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #3A69D2;
+
+    font-size: 45px;
+    padding-top: 15px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+header p {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+
+/*-----------------------------------------*/
+main {
+    margin-top: 115px;
+    margin-left: -8px;
+    padding-top: 10px;
+    width: 1310px;
+    height: 540px;
+    left: 1368px;
+    top: 959px;
+
+    background: #1F2937;
+}
+
+#washy-btn {
+    font-size: 17px;
+    background-color: #D1D4F4;
+    justify-content: center;
+    align-items: center;
+    background: #D1D4F4;
+    border-radius: 7px;
+    border: none;
+
+    margin-right: 40px;
+    padding: 5px 5px 5px 5px;
+}
+
+#mowLawn-btn {
+    font-size: 17px;
+    background-color: #D1D4F4;
+    justify-content: center;
+    align-items: center;
+    background: #D1D4F4;
+    border-radius: 7px;
+    border: none;
+
+    padding: 5px 5px 5px 5px;
+}
+
+#pullWeeds-btn {
+    font-size: 17px;
+    background-color: #D1D4F4;
+    justify-content: center;
+    align-items: center;
+    background: #D1D4F4;
+    border-radius: 7px;
+    border: none;
+
+    margin-left: 40px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*lines ~~~~~~~~~~~~~~~~~~~~*/
+#lines {
+    font-size: 20px;
+    font-family: Inter;
+    display:flex;
+    flex-direction: column;
+}
+
+#mainLine {
+    display: flex;
+    flex-direction: row;
+}
+
+#lineOne {
+    display:flex;
+    flex-direction: row;
+}
+
+#lineTwo {
+    display:flex;
+    flex-direction: row;
+}
+
+#lineThree {
+    display:flex;
+    flex-direction: row;
+}
+
+#left {
+    margin-left: 430px;
+}
+
+#right {
+    margin-left: 275px;
+}
+
+#lineOne #right {
+    padding-right: 75px;
+    margin-left: 250px;
+}
+
+#lineTwo #right {
+    padding-right: 75px;
+    margin-left: 235px;
+}
+
+#lineThree #right {
+    padding-right: 75px;
+    margin-left: 238px;
+}
+
+#removeWashy {
+    color: #d5d4d8;
+    border:none;
+    background-color: #1F2937;
+}
+
+#removeLawny {
+    color: #d5d4d8;
+    border:none;
+    background-color: #1F2937;
+}
+
+#removeWeedy {
+    color: #d5d4d8;
+    border:none;
+    background-color: #1F2937;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#aLine {
+    display: flex;
+    flex-direction: row;
+    margin-left: 430px;
+}
+
+#rLine {
+    display: flex;
+    flex-direction: row;
+    margin-left: 430px;
+}
+
+#totalAmount {
+    margin-left: 270px;
+}
+
+#totalAmountPrice {
+    margin-left: 85px;
+}
+
+#invoice {
+    color: white;
+    align-items: center;
+    width: 450px;
+    background-color:#3A69D2;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 7px 7px 7px 7px;
+}
